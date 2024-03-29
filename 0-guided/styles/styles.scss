@@ -15,5 +15,17 @@ html, body {
 }
 
 .button {
-  
+    padding: 15px;
+    width: 180px;
+    background: none;
+    letter-spacing: 3px;
+    border-radius: 40px;
+    border: 3px solid black;
+    font-weight: bold;
+    color: #333;
+
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
 }
