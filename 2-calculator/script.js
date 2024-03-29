@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
     const numInputs = document.querySelectorAll(".num-box");
     const tempNum = document.getElementById("temp-num");
     const signsInputs = document.querySelectorAll(".signs-box");
@@ -74,4 +73,3 @@ document.addEventListener("DOMContentLoaded", function() {
         operator = '';
         result = '';
     }
-});
